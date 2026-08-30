@@ -106,13 +106,13 @@ To enable ultra-low-latency inter-process communication between local agents, we
 
 | Module | File | Description |
 | :--- | :--- | :--- |
-| **Parallel Router** | [`parallel_router.py`](pai/parallel_router.py) | Master tri-engine parallel orchestrator, AGY coordinator, and self-healing subprocess loop. |
-| **Smart Router** | [`smart_router.py`](pai/smart_router.py) | 3-tier intelligent routing classifier with interactive system permission gates. |
-| **Zero Broker** | [`zero_broker.py`](pai/zero_broker.py) | Lock-free SPMC in-memory ring buffer with 64-byte padded atomics and binary wire protocol. |
-| **Agent Manager** | [`agent_manager.py`](pai/agent_manager.py) | Tmux session orchestrator to start, stop, list, monitor, and assign tasks to CLI agents. |
-| **AGY Orchestrator** | [`agy_orchestrator.py`](pai/agy_orchestrator.py) | Antigravity multi-agent configuration and subagent dispatching. |
-| **Marathon Engine** | [`pai_marathon_engine.py`](benchmarks/pai_marathon_engine.py) | Autonomous multi-hour continuous benchmark runner and self-tuning loop. |
-| **Benchmark Suite** | [`pai_benchmark_suite.py`](benchmarks/pai_benchmark_suite.py) | Standalone verification suite covering 4 core distributed systems challenges. |
+| **Parallel Router** | [`parallel_router.py`](parallel_router.py) | Master tri-engine parallel orchestrator, AGY coordinator, and self-healing subprocess loop. |
+| **Smart Router** | [`smart_router.py`](smart_router.py) | 3-tier intelligent routing classifier with interactive system permission gates. |
+| **Zero Broker** | [`zero_broker.py`](zero_broker.py) | Lock-free SPMC in-memory ring buffer with 64-byte padded atomics and binary wire protocol. |
+| **Agent Manager** | [`agent_manager.py`](agent_manager.py) | Tmux session orchestrator to start, stop, list, monitor, and assign tasks to CLI agents. |
+| **AGY Orchestrator** | [`agy_orchestrator.py`](agy_orchestrator.py) | Antigravity multi-agent configuration and subagent dispatching. |
+| **Marathon Engine** | [`benchmarks/pai_marathon_engine.py`](benchmarks/pai_marathon_engine.py) | Autonomous multi-hour continuous benchmark runner and self-tuning loop. |
+| **Benchmark Suite** | [`benchmarks/pai_benchmark_suite.py`](benchmarks/pai_benchmark_suite.py) | Standalone verification suite covering 4 core distributed systems challenges. |
 
 ---
 
