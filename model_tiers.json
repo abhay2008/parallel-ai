@@ -1,0 +1,32 @@
+{
+  "tiers": {
+    "flash_lite": {
+      "description": "Ultra-fast, minimal cost. Use for: quick lookups, file reads, yes/no decisions.",
+      "local_model": "openai/qwen2.5-coder:7b",
+      "local_api": "http://localhost:11434/v1",
+      "cloud_fallback": "openai/nvidia/nemotron-3-ultra-550b-a55b:free",
+      "trigger_keywords": ["list", "show", "what is", "ping", "check", "status", "count", "find file"]
+    },
+    "flash": {
+      "description": "Fast, capable. Use for: code snippets, simple functions, quick scripts.",
+      "local_model": "openai/qwen2.5-coder:7b",
+      "local_api": "http://localhost:11434/v1",
+      "cloud_fallback": "openai/nvidia/nemotron-3-ultra-550b-a55b:free",
+      "trigger_keywords": ["write", "fix", "debug", "edit", "function", "script", "snippet"]
+    },
+    "pro": {
+      "description": "Maximum intelligence. Use for: architecture, research, complex multi-step tasks.",
+      "model": "openai/nvidia/nemotron-3-ultra-550b-a55b:free",
+      "api_base": "https://openrouter.ai/api/v1",
+      "trigger_keywords": [
+        "architect", "design", "research", "analyze", "strategy",
+        "comprehensive", "refactor entire", "system", "production"
+      ]
+    }
+  },
+  "routing_rules": {
+    "max_local_prompt_chars": 400,
+    "default_tier": "flash",
+    "always_cloud_if_code_lines_gt": 50
+  }
+}

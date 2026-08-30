@@ -1,0 +1,5 @@
+{
+  "name": "data-analyst",
+  "description": "Custom data analysis CLI agent with local interpreter access",
+  "command": "interpreter --model openai/qwen2.5-coder:7b --temperature 0.2"
+}

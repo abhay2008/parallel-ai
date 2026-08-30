@@ -1,0 +1,765 @@
+[2026-08-08 04:26:05] ========================================================================
+[2026-08-08 04:26:05] 🚀 STARTING PAI 2-HOUR MARATHON BENCHMARK & SELF-TUNING RUNNER
+[2026-08-08 04:26:05] ========================================================================
+[2026-08-08 04:26:05] 
+--- Marathon Progress: Run #1 | Time Elapsed: 0.0m / 120m (Remaining: 120.0m) ---
+[2026-08-08 04:26:05] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 04:27:51] ✅ PASSED BENCH-03 in 105.35s
+[2026-08-08 04:27:54] 
+--- Marathon Progress: Run #2 | Time Elapsed: 1.8m / 120m (Remaining: 118.2m) ---
+[2026-08-08 04:27:54] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 04:28:12] ========================================================================
+[2026-08-08 04:28:12] 🚀 STARTING PAI 2-HOUR MARATHON BENCHMARK & SELF-TUNING RUNNER
+[2026-08-08 04:28:12] ========================================================================
+[2026-08-08 04:28:12] 
+--- Marathon Progress: Run #1 | Time Elapsed: 0.0m / 120m (Remaining: 240.0m) ---
+[2026-08-08 04:28:12] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 04:31:42] ⏰ TIMED OUT BENCH-04 after 210s
+[2026-08-08 04:31:45] 
+--- Marathon Progress: Run #2 | Time Elapsed: 3.6m / 120m (Remaining: 236.4m) ---
+[2026-08-08 04:31:45] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 04:33:05] ✅ PASSED BENCH-08 in 80.66s
+[2026-08-08 04:33:08] 
+--- Marathon Progress: Run #3 | Time Elapsed: 4.9m / 120m (Remaining: 235.1m) ---
+[2026-08-08 04:33:08] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 04:34:41] ✅ PASSED BENCH-03 in 92.38s
+[2026-08-08 04:34:44] 
+--- Marathon Progress: Run #4 | Time Elapsed: 6.5m / 120m (Remaining: 233.5m) ---
+[2026-08-08 04:34:44] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 04:37:18] ✅ PASSED BENCH-07 in 154.55s
+[2026-08-08 04:37:21] 
+--- Marathon Progress: Run #5 | Time Elapsed: 9.2m / 120m (Remaining: 230.8m) ---
+[2026-08-08 04:37:21] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 04:39:33] ✅ PASSED BENCH-02 in 131.75s
+[2026-08-08 04:39:36] 
+--- Marathon Progress: Run #6 | Time Elapsed: 11.4m / 120m (Remaining: 228.6m) ---
+[2026-08-08 04:39:36] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 04:40:32] ❌ FAILED BENCH-10 after 55.79s | Exit: 0
+[2026-08-08 04:40:35] 
+--- Marathon Progress: Run #7 | Time Elapsed: 12.4m / 120m (Remaining: 227.6m) ---
+[2026-08-08 04:40:35] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 04:41:31] ❌ FAILED BENCH-05 after 56.60s | Exit: 0
+[2026-08-08 04:41:34] 
+--- Marathon Progress: Run #8 | Time Elapsed: 13.4m / 120m (Remaining: 226.6m) ---
+[2026-08-08 04:41:34] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 04:42:29] ❌ FAILED BENCH-06 after 54.56s | Exit: 0
+[2026-08-08 04:42:32] 
+--- Marathon Progress: Run #9 | Time Elapsed: 14.3m / 120m (Remaining: 225.7m) ---
+[2026-08-08 04:42:32] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 04:43:35] ❌ FAILED BENCH-01 after 63.00s | Exit: 0
+[2026-08-08 04:43:38] 
+--- Marathon Progress: Run #10 | Time Elapsed: 15.4m / 120m (Remaining: 224.6m) ---
+[2026-08-08 04:43:38] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 04:44:52] ❌ FAILED BENCH-09 after 73.59s | Exit: 0
+[2026-08-08 04:44:55] 
+--- Marathon Progress: Run #11 | Time Elapsed: 16.7m / 120m (Remaining: 223.3m) ---
+[2026-08-08 04:44:55] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 04:45:49] ❌ FAILED BENCH-02 after 54.50s | Exit: 0
+[2026-08-08 04:45:52] 
+--- Marathon Progress: Run #12 | Time Elapsed: 17.7m / 120m (Remaining: 222.3m) ---
+[2026-08-08 04:45:52] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 04:46:48] ❌ FAILED BENCH-08 after 56.02s | Exit: 0
+[2026-08-08 04:46:51] 
+--- Marathon Progress: Run #13 | Time Elapsed: 18.7m / 120m (Remaining: 221.3m) ---
+[2026-08-08 04:46:51] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 04:48:07] ❌ FAILED BENCH-10 after 75.85s | Exit: 0
+[2026-08-08 04:48:10] 
+--- Marathon Progress: Run #14 | Time Elapsed: 20.0m / 120m (Remaining: 220.0m) ---
+[2026-08-08 04:48:10] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 04:49:13] ❌ FAILED BENCH-09 after 62.81s | Exit: 0
+[2026-08-08 04:49:16] 
+--- Marathon Progress: Run #15 | Time Elapsed: 21.1m / 120m (Remaining: 218.9m) ---
+[2026-08-08 04:49:16] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 04:50:19] ❌ FAILED BENCH-01 after 63.48s | Exit: 0
+[2026-08-08 04:50:22] 
+--- Marathon Progress: Run #16 | Time Elapsed: 22.2m / 120m (Remaining: 217.8m) ---
+[2026-08-08 04:50:22] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 04:51:18] ❌ FAILED BENCH-06 after 55.59s | Exit: 0
+[2026-08-08 04:51:21] 
+--- Marathon Progress: Run #17 | Time Elapsed: 23.2m / 120m (Remaining: 216.8m) ---
+[2026-08-08 04:51:21] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 04:52:23] ❌ FAILED BENCH-05 after 62.23s | Exit: 0
+[2026-08-08 04:52:26] 
+--- Marathon Progress: Run #18 | Time Elapsed: 24.2m / 120m (Remaining: 215.8m) ---
+[2026-08-08 04:52:26] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 04:53:24] ❌ FAILED BENCH-07 after 57.70s | Exit: 0
+[2026-08-08 04:53:27] 
+--- Marathon Progress: Run #19 | Time Elapsed: 25.3m / 120m (Remaining: 214.7m) ---
+[2026-08-08 04:53:27] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 04:54:32] ❌ FAILED BENCH-03 after 65.12s | Exit: 0
+[2026-08-08 04:54:35] 
+--- Marathon Progress: Run #20 | Time Elapsed: 26.4m / 120m (Remaining: 213.6m) ---
+[2026-08-08 04:54:35] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 04:55:29] ❌ FAILED BENCH-04 after 54.42s | Exit: 0
+[2026-08-08 04:55:32] 
+--- Marathon Progress: Run #21 | Time Elapsed: 27.3m / 120m (Remaining: 212.7m) ---
+[2026-08-08 04:55:32] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 04:56:37] ❌ FAILED BENCH-10 after 64.54s | Exit: 0
+[2026-08-08 04:56:40] 
+--- Marathon Progress: Run #22 | Time Elapsed: 28.5m / 120m (Remaining: 211.5m) ---
+[2026-08-08 04:56:40] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 04:57:50] ❌ FAILED BENCH-05 after 69.70s | Exit: 0
+[2026-08-08 04:57:53] 
+--- Marathon Progress: Run #23 | Time Elapsed: 29.7m / 120m (Remaining: 210.3m) ---
+[2026-08-08 04:57:53] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 04:59:02] ❌ FAILED BENCH-09 after 69.28s | Exit: 0
+[2026-08-08 04:59:05] 
+--- Marathon Progress: Run #24 | Time Elapsed: 30.9m / 120m (Remaining: 209.1m) ---
+[2026-08-08 04:59:05] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 05:00:04] ❌ FAILED BENCH-07 after 58.99s | Exit: 0
+[2026-08-08 05:00:07] 
+--- Marathon Progress: Run #25 | Time Elapsed: 31.9m / 120m (Remaining: 208.1m) ---
+[2026-08-08 05:00:07] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 05:01:16] ❌ FAILED BENCH-01 after 69.21s | Exit: 0
+[2026-08-08 05:01:19] 
+--- Marathon Progress: Run #26 | Time Elapsed: 33.1m / 120m (Remaining: 206.9m) ---
+[2026-08-08 05:01:19] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 05:02:25] ❌ FAILED BENCH-08 after 65.80s | Exit: 0
+[2026-08-08 05:02:28] 
+--- Marathon Progress: Run #27 | Time Elapsed: 34.3m / 120m (Remaining: 205.7m) ---
+[2026-08-08 05:02:28] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 05:03:21] ❌ FAILED BENCH-06 after 52.64s | Exit: 0
+[2026-08-08 05:03:24] 
+--- Marathon Progress: Run #28 | Time Elapsed: 35.2m / 120m (Remaining: 204.8m) ---
+[2026-08-08 05:03:24] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 05:04:34] ❌ FAILED BENCH-03 after 70.41s | Exit: 0
+[2026-08-08 05:04:37] 
+--- Marathon Progress: Run #29 | Time Elapsed: 36.4m / 120m (Remaining: 203.6m) ---
+[2026-08-08 05:04:37] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 05:05:45] ❌ FAILED BENCH-02 after 67.45s | Exit: 0
+[2026-08-08 05:05:48] 
+--- Marathon Progress: Run #30 | Time Elapsed: 37.6m / 120m (Remaining: 202.4m) ---
+[2026-08-08 05:05:48] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 05:06:55] ❌ FAILED BENCH-04 after 67.61s | Exit: 0
+[2026-08-08 05:06:58] 
+--- Marathon Progress: Run #31 | Time Elapsed: 38.8m / 120m (Remaining: 201.2m) ---
+[2026-08-08 05:06:58] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 05:08:06] ❌ FAILED BENCH-05 after 67.44s | Exit: 0
+[2026-08-08 05:08:09] 
+--- Marathon Progress: Run #32 | Time Elapsed: 40.0m / 120m (Remaining: 200.0m) ---
+[2026-08-08 05:08:09] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 05:09:14] ❌ FAILED BENCH-04 after 65.40s | Exit: 0
+[2026-08-08 05:09:17] 
+--- Marathon Progress: Run #33 | Time Elapsed: 41.1m / 120m (Remaining: 198.9m) ---
+[2026-08-08 05:09:17] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 05:10:29] ❌ FAILED BENCH-03 after 72.04s | Exit: 0
+[2026-08-08 05:10:32] 
+--- Marathon Progress: Run #34 | Time Elapsed: 42.3m / 120m (Remaining: 197.7m) ---
+[2026-08-08 05:10:32] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 05:11:27] ❌ FAILED BENCH-10 after 55.25s | Exit: 0
+[2026-08-08 05:11:30] 
+--- Marathon Progress: Run #35 | Time Elapsed: 43.3m / 120m (Remaining: 196.7m) ---
+[2026-08-08 05:11:30] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 05:12:31] ❌ FAILED BENCH-01 after 60.28s | Exit: 0
+[2026-08-08 05:12:34] 
+--- Marathon Progress: Run #36 | Time Elapsed: 44.4m / 120m (Remaining: 195.6m) ---
+[2026-08-08 05:12:34] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 05:13:44] ❌ FAILED BENCH-09 after 69.90s | Exit: 0
+[2026-08-08 05:13:47] 
+--- Marathon Progress: Run #37 | Time Elapsed: 45.6m / 120m (Remaining: 194.4m) ---
+[2026-08-08 05:13:47] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 05:14:42] ❌ FAILED BENCH-06 after 55.86s | Exit: 0
+[2026-08-08 05:14:45] 
+--- Marathon Progress: Run #38 | Time Elapsed: 46.6m / 120m (Remaining: 193.4m) ---
+[2026-08-08 05:14:45] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 05:15:48] ❌ FAILED BENCH-02 after 62.64s | Exit: 0
+[2026-08-08 05:15:51] 
+--- Marathon Progress: Run #39 | Time Elapsed: 47.7m / 120m (Remaining: 192.3m) ---
+[2026-08-08 05:15:51] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 05:16:54] ❌ FAILED BENCH-07 after 62.81s | Exit: 0
+[2026-08-08 05:16:57] 
+--- Marathon Progress: Run #40 | Time Elapsed: 48.8m / 120m (Remaining: 191.2m) ---
+[2026-08-08 05:16:57] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 05:17:51] ❌ FAILED BENCH-08 after 54.13s | Exit: 0
+[2026-08-08 05:17:54] 
+--- Marathon Progress: Run #41 | Time Elapsed: 49.7m / 120m (Remaining: 190.3m) ---
+[2026-08-08 05:17:54] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 05:18:54] ❌ FAILED BENCH-10 after 60.26s | Exit: 0
+[2026-08-08 05:18:57] 
+--- Marathon Progress: Run #42 | Time Elapsed: 50.8m / 120m (Remaining: 189.2m) ---
+[2026-08-08 05:18:57] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 05:20:00] ❌ FAILED BENCH-04 after 62.57s | Exit: 0
+[2026-08-08 05:20:03] 
+--- Marathon Progress: Run #43 | Time Elapsed: 51.9m / 120m (Remaining: 188.1m) ---
+[2026-08-08 05:20:03] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 05:21:26] ❌ FAILED BENCH-03 after 82.79s | Exit: 0
+[2026-08-08 05:21:29] 
+--- Marathon Progress: Run #44 | Time Elapsed: 53.3m / 120m (Remaining: 186.7m) ---
+[2026-08-08 05:21:29] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 05:22:32] ❌ FAILED BENCH-06 after 63.21s | Exit: 0
+[2026-08-08 05:22:35] 
+--- Marathon Progress: Run #45 | Time Elapsed: 54.4m / 120m (Remaining: 185.6m) ---
+[2026-08-08 05:22:35] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 05:23:32] ❌ FAILED BENCH-07 after 57.21s | Exit: 0
+[2026-08-08 05:23:35] 
+--- Marathon Progress: Run #46 | Time Elapsed: 55.4m / 120m (Remaining: 184.6m) ---
+[2026-08-08 05:23:35] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 05:24:40] ❌ FAILED BENCH-08 after 64.45s | Exit: 0
+[2026-08-08 05:24:43] 
+--- Marathon Progress: Run #47 | Time Elapsed: 56.5m / 120m (Remaining: 183.5m) ---
+[2026-08-08 05:24:43] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 05:25:53] ❌ FAILED BENCH-05 after 69.91s | Exit: 0
+[2026-08-08 05:25:56] 
+--- Marathon Progress: Run #48 | Time Elapsed: 57.7m / 120m (Remaining: 182.3m) ---
+[2026-08-08 05:25:56] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 05:27:06] ❌ FAILED BENCH-02 after 70.56s | Exit: 0
+[2026-08-08 05:27:09] 
+--- Marathon Progress: Run #49 | Time Elapsed: 59.0m / 120m (Remaining: 181.0m) ---
+[2026-08-08 05:27:09] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 05:28:15] ❌ FAILED BENCH-01 after 66.27s | Exit: 0
+[2026-08-08 05:28:18] 
+--- Marathon Progress: Run #50 | Time Elapsed: 60.1m / 120m (Remaining: 179.9m) ---
+[2026-08-08 05:28:18] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 05:30:02] ❌ FAILED BENCH-09 after 103.48s | Exit: 0
+[2026-08-08 05:30:05] 
+--- Marathon Progress: Run #51 | Time Elapsed: 61.9m / 120m (Remaining: 178.1m) ---
+[2026-08-08 05:30:05] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 05:30:55] ❌ FAILED BENCH-06 after 50.15s | Exit: 0
+[2026-08-08 05:30:58] 
+--- Marathon Progress: Run #52 | Time Elapsed: 62.8m / 120m (Remaining: 177.2m) ---
+[2026-08-08 05:30:58] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 05:32:03] ❌ FAILED BENCH-02 after 65.41s | Exit: 0
+[2026-08-08 05:32:06] 
+--- Marathon Progress: Run #53 | Time Elapsed: 63.9m / 120m (Remaining: 176.1m) ---
+[2026-08-08 05:32:06] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 05:33:16] ❌ FAILED BENCH-01 after 69.37s | Exit: 0
+[2026-08-08 05:33:19] 
+--- Marathon Progress: Run #54 | Time Elapsed: 65.1m / 120m (Remaining: 174.9m) ---
+[2026-08-08 05:33:19] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 05:34:41] ❌ FAILED BENCH-08 after 82.12s | Exit: 0
+[2026-08-08 05:34:44] 
+--- Marathon Progress: Run #55 | Time Elapsed: 66.5m / 120m (Remaining: 173.5m) ---
+[2026-08-08 05:34:44] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 05:35:50] ❌ FAILED BENCH-04 after 65.57s | Exit: 0
+[2026-08-08 05:35:53] 
+--- Marathon Progress: Run #56 | Time Elapsed: 67.7m / 120m (Remaining: 172.3m) ---
+[2026-08-08 05:35:53] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 05:36:53] ❌ FAILED BENCH-10 after 60.89s | Exit: 0
+[2026-08-08 05:36:56] 
+--- Marathon Progress: Run #57 | Time Elapsed: 68.7m / 120m (Remaining: 171.3m) ---
+[2026-08-08 05:36:56] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 05:38:05] ❌ FAILED BENCH-03 after 68.85s | Exit: 0
+[2026-08-08 05:38:08] 
+--- Marathon Progress: Run #58 | Time Elapsed: 69.9m / 120m (Remaining: 170.1m) ---
+[2026-08-08 05:38:08] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 05:39:19] ❌ FAILED BENCH-09 after 70.71s | Exit: 0
+[2026-08-08 05:39:22] 
+--- Marathon Progress: Run #59 | Time Elapsed: 71.2m / 120m (Remaining: 168.8m) ---
+[2026-08-08 05:39:22] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 05:40:37] ❌ FAILED BENCH-05 after 74.79s | Exit: 0
+[2026-08-08 05:40:40] 
+--- Marathon Progress: Run #60 | Time Elapsed: 72.5m / 120m (Remaining: 167.5m) ---
+[2026-08-08 05:40:40] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 05:41:32] ❌ FAILED BENCH-07 after 52.19s | Exit: 0
+[2026-08-08 05:41:35] 
+--- Marathon Progress: Run #61 | Time Elapsed: 73.4m / 120m (Remaining: 166.6m) ---
+[2026-08-08 05:41:35] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 05:42:28] ❌ FAILED BENCH-07 after 52.80s | Exit: 0
+[2026-08-08 05:42:31] 
+--- Marathon Progress: Run #62 | Time Elapsed: 74.3m / 120m (Remaining: 165.7m) ---
+[2026-08-08 05:42:31] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 05:43:42] ❌ FAILED BENCH-04 after 70.95s | Exit: 0
+[2026-08-08 05:43:45] 
+--- Marathon Progress: Run #63 | Time Elapsed: 75.6m / 120m (Remaining: 164.4m) ---
+[2026-08-08 05:43:45] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 05:45:04] ❌ FAILED BENCH-02 after 78.69s | Exit: 0
+[2026-08-08 05:45:07] 
+--- Marathon Progress: Run #64 | Time Elapsed: 76.9m / 120m (Remaining: 163.1m) ---
+[2026-08-08 05:45:07] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 05:46:17] ❌ FAILED BENCH-03 after 70.19s | Exit: 0
+[2026-08-08 05:46:20] 
+--- Marathon Progress: Run #65 | Time Elapsed: 78.1m / 120m (Remaining: 161.9m) ---
+[2026-08-08 05:46:20] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 05:47:49] ❌ FAILED BENCH-08 after 89.62s | Exit: 0
+[2026-08-08 05:47:52] 
+--- Marathon Progress: Run #66 | Time Elapsed: 79.7m / 120m (Remaining: 160.3m) ---
+[2026-08-08 05:47:52] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 05:48:58] ❌ FAILED BENCH-01 after 66.09s | Exit: 0
+[2026-08-08 05:49:01] 
+--- Marathon Progress: Run #67 | Time Elapsed: 80.8m / 120m (Remaining: 159.2m) ---
+[2026-08-08 05:49:01] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 05:50:09] ❌ FAILED BENCH-09 after 67.98s | Exit: 0
+[2026-08-08 05:50:12] 
+--- Marathon Progress: Run #68 | Time Elapsed: 82.0m / 120m (Remaining: 158.0m) ---
+[2026-08-08 05:50:12] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 05:51:14] ❌ FAILED BENCH-06 after 61.60s | Exit: 0
+[2026-08-08 05:51:17] 
+--- Marathon Progress: Run #69 | Time Elapsed: 83.1m / 120m (Remaining: 156.9m) ---
+[2026-08-08 05:51:17] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 05:52:19] ❌ FAILED BENCH-05 after 61.92s | Exit: 0
+[2026-08-08 05:52:22] 
+--- Marathon Progress: Run #70 | Time Elapsed: 84.2m / 120m (Remaining: 155.8m) ---
+[2026-08-08 05:52:22] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 05:53:41] ❌ FAILED BENCH-10 after 79.24s | Exit: 0
+[2026-08-08 05:53:44] 
+--- Marathon Progress: Run #71 | Time Elapsed: 85.5m / 120m (Remaining: 154.5m) ---
+[2026-08-08 05:53:44] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 05:55:07] ❌ FAILED BENCH-01 after 82.27s | Exit: 0
+[2026-08-08 05:55:10] 
+--- Marathon Progress: Run #72 | Time Elapsed: 87.0m / 120m (Remaining: 153.0m) ---
+[2026-08-08 05:55:10] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 05:56:11] ❌ FAILED BENCH-07 after 61.66s | Exit: 0
+[2026-08-08 05:56:14] 
+--- Marathon Progress: Run #73 | Time Elapsed: 88.0m / 120m (Remaining: 152.0m) ---
+[2026-08-08 05:56:14] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 05:57:19] ❌ FAILED BENCH-05 after 65.12s | Exit: 0
+[2026-08-08 05:57:22] 
+--- Marathon Progress: Run #74 | Time Elapsed: 89.2m / 120m (Remaining: 150.8m) ---
+[2026-08-08 05:57:22] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 05:58:18] ❌ FAILED BENCH-06 after 55.34s | Exit: 0
+[2026-08-08 05:58:21] 
+--- Marathon Progress: Run #75 | Time Elapsed: 90.2m / 120m (Remaining: 149.8m) ---
+[2026-08-08 05:58:21] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 05:59:28] ❌ FAILED BENCH-09 after 67.48s | Exit: 0
+[2026-08-08 05:59:31] 
+--- Marathon Progress: Run #76 | Time Elapsed: 91.3m / 120m (Remaining: 148.7m) ---
+[2026-08-08 05:59:31] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 06:00:49] ❌ FAILED BENCH-04 after 78.13s | Exit: 0
+[2026-08-08 06:00:52] 
+--- Marathon Progress: Run #77 | Time Elapsed: 92.7m / 120m (Remaining: 147.3m) ---
+[2026-08-08 06:00:52] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 06:02:11] ❌ FAILED BENCH-03 after 79.00s | Exit: 0
+[2026-08-08 06:02:14] 
+--- Marathon Progress: Run #78 | Time Elapsed: 94.0m / 120m (Remaining: 146.0m) ---
+[2026-08-08 06:02:14] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 06:03:29] ❌ FAILED BENCH-02 after 74.70s | Exit: 0
+[2026-08-08 06:03:32] 
+--- Marathon Progress: Run #79 | Time Elapsed: 95.3m / 120m (Remaining: 144.7m) ---
+[2026-08-08 06:03:32] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 06:04:28] ❌ FAILED BENCH-08 after 56.09s | Exit: 0
+[2026-08-08 06:04:31] 
+--- Marathon Progress: Run #80 | Time Elapsed: 96.3m / 120m (Remaining: 143.7m) ---
+[2026-08-08 06:04:31] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 06:05:32] ❌ FAILED BENCH-10 after 60.85s | Exit: 0
+[2026-08-08 06:05:35] 
+--- Marathon Progress: Run #81 | Time Elapsed: 97.4m / 120m (Remaining: 142.6m) ---
+[2026-08-08 06:05:35] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 06:06:30] ❌ FAILED BENCH-06 after 55.17s | Exit: 0
+[2026-08-08 06:06:33] 
+--- Marathon Progress: Run #82 | Time Elapsed: 98.4m / 120m (Remaining: 141.6m) ---
+[2026-08-08 06:06:33] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 06:07:32] ❌ FAILED BENCH-07 after 59.31s | Exit: 0
+[2026-08-08 06:07:35] 
+--- Marathon Progress: Run #83 | Time Elapsed: 99.4m / 120m (Remaining: 140.6m) ---
+[2026-08-08 06:07:35] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 06:08:35] ❌ FAILED BENCH-01 after 60.00s | Exit: 0
+[2026-08-08 06:08:39] 
+--- Marathon Progress: Run #84 | Time Elapsed: 100.4m / 120m (Remaining: 139.6m) ---
+[2026-08-08 06:08:39] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 06:09:59] ✅ PASSED BENCH-10 in 80.90s
+[2026-08-08 06:10:02] 
+--- Marathon Progress: Run #85 | Time Elapsed: 101.8m / 120m (Remaining: 138.2m) ---
+[2026-08-08 06:10:02] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 06:11:15] ✅ PASSED BENCH-09 in 72.38s
+[2026-08-08 06:11:18] 
+--- Marathon Progress: Run #86 | Time Elapsed: 103.1m / 120m (Remaining: 136.9m) ---
+[2026-08-08 06:11:18] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 06:13:46] ✅ PASSED BENCH-02 in 148.38s
+[2026-08-08 06:13:49] 
+--- Marathon Progress: Run #87 | Time Elapsed: 105.6m / 120m (Remaining: 134.4m) ---
+[2026-08-08 06:13:49] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 06:15:35] ✅ PASSED BENCH-08 in 106.04s
+[2026-08-08 06:15:38] 
+--- Marathon Progress: Run #88 | Time Elapsed: 107.4m / 120m (Remaining: 132.6m) ---
+[2026-08-08 06:15:38] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 06:16:57] ✅ PASSED BENCH-05 in 78.28s
+[2026-08-08 06:17:00] 
+--- Marathon Progress: Run #89 | Time Elapsed: 108.8m / 120m (Remaining: 131.2m) ---
+[2026-08-08 06:17:00] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 06:18:41] ✅ PASSED BENCH-03 in 101.08s
+[2026-08-08 06:18:44] 
+--- Marathon Progress: Run #90 | Time Elapsed: 110.5m / 120m (Remaining: 129.5m) ---
+[2026-08-08 06:18:44] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 06:20:31] ✅ PASSED BENCH-04 in 107.01s
+[2026-08-08 06:20:34] 
+--- Marathon Progress: Run #91 | Time Elapsed: 112.4m / 120m (Remaining: 127.6m) ---
+[2026-08-08 06:20:34] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 06:21:27] ✅ PASSED BENCH-06 in 53.28s
+[2026-08-08 06:21:30] 
+--- Marathon Progress: Run #92 | Time Elapsed: 113.3m / 120m (Remaining: 126.7m) ---
+[2026-08-08 06:21:30] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 06:23:00] ✅ PASSED BENCH-10 in 89.71s
+[2026-08-08 06:23:03] 
+--- Marathon Progress: Run #93 | Time Elapsed: 114.9m / 120m (Remaining: 125.1m) ---
+[2026-08-08 06:23:03] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 06:26:33] ⏰ TIMED OUT BENCH-04 after 210s
+[2026-08-08 06:26:36] 
+--- Marathon Progress: Run #94 | Time Elapsed: 118.4m / 120m (Remaining: 121.6m) ---
+[2026-08-08 06:26:36] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 06:28:01] ✅ PASSED BENCH-03 in 85.37s
+[2026-08-08 06:28:04] 
+--- Marathon Progress: Run #95 | Time Elapsed: 119.9m / 120m (Remaining: 120.1m) ---
+[2026-08-08 06:28:04] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 06:29:44] ✅ PASSED BENCH-07 in 99.84s
+[2026-08-08 06:29:47] 
+--- Marathon Progress: Run #96 | Time Elapsed: 121.6m / 120m (Remaining: 118.4m) ---
+[2026-08-08 06:29:47] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 06:31:36] ✅ PASSED BENCH-02 in 109.44s
+[2026-08-08 06:31:39] 
+--- Marathon Progress: Run #97 | Time Elapsed: 123.5m / 120m (Remaining: 116.5m) ---
+[2026-08-08 06:31:39] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 06:33:12] ✅ PASSED BENCH-01 in 92.33s
+[2026-08-08 06:33:15] 
+--- Marathon Progress: Run #98 | Time Elapsed: 125.1m / 120m (Remaining: 114.9m) ---
+[2026-08-08 06:33:15] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 06:34:27] ✅ PASSED BENCH-09 in 72.60s
+[2026-08-08 06:34:30] 
+--- Marathon Progress: Run #99 | Time Elapsed: 126.3m / 120m (Remaining: 113.7m) ---
+[2026-08-08 06:34:30] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 06:36:34] ✅ PASSED BENCH-05 in 123.84s
+[2026-08-08 06:36:37] 
+--- Marathon Progress: Run #100 | Time Elapsed: 128.4m / 120m (Remaining: 111.6m) ---
+[2026-08-08 06:36:37] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 06:38:11] ✅ PASSED BENCH-08 in 94.26s
+[2026-08-08 06:38:14] 
+--- Marathon Progress: Run #101 | Time Elapsed: 130.0m / 120m (Remaining: 110.0m) ---
+[2026-08-08 06:38:14] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 06:39:50] ✅ PASSED BENCH-03 in 95.34s
+[2026-08-08 06:39:53] 
+--- Marathon Progress: Run #102 | Time Elapsed: 131.7m / 120m (Remaining: 108.3m) ---
+[2026-08-08 06:39:53] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 06:41:00] ✅ PASSED BENCH-09 in 66.95s
+[2026-08-08 06:41:03] 
+--- Marathon Progress: Run #103 | Time Elapsed: 132.9m / 120m (Remaining: 107.1m) ---
+[2026-08-08 06:41:03] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 06:43:47] ✅ PASSED BENCH-08 in 164.69s
+[2026-08-08 06:43:50] 
+--- Marathon Progress: Run #104 | Time Elapsed: 135.6m / 120m (Remaining: 104.4m) ---
+[2026-08-08 06:43:50] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 06:46:14] ✅ PASSED BENCH-04 in 143.34s
+[2026-08-08 06:46:17] 
+--- Marathon Progress: Run #105 | Time Elapsed: 138.1m / 120m (Remaining: 101.9m) ---
+[2026-08-08 06:46:17] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 06:47:54] ✅ PASSED BENCH-01 in 97.32s
+[2026-08-08 06:47:57] 
+--- Marathon Progress: Run #106 | Time Elapsed: 139.8m / 120m (Remaining: 100.2m) ---
+[2026-08-08 06:47:57] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 06:48:55] ✅ PASSED BENCH-06 in 57.75s
+[2026-08-08 06:48:58] 
+--- Marathon Progress: Run #107 | Time Elapsed: 140.8m / 120m (Remaining: 99.2m) ---
+[2026-08-08 06:48:58] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 06:52:28] ⏰ TIMED OUT BENCH-02 after 210s
+[2026-08-08 06:52:31] 
+--- Marathon Progress: Run #108 | Time Elapsed: 144.3m / 120m (Remaining: 95.7m) ---
+[2026-08-08 06:52:31] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 06:54:26] ✅ PASSED BENCH-05 in 114.91s
+[2026-08-08 06:54:29] 
+--- Marathon Progress: Run #109 | Time Elapsed: 146.3m / 120m (Remaining: 93.7m) ---
+[2026-08-08 06:54:29] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 06:56:24] ✅ PASSED BENCH-07 in 115.19s
+[2026-08-08 06:56:27] 
+--- Marathon Progress: Run #110 | Time Elapsed: 148.3m / 120m (Remaining: 91.7m) ---
+[2026-08-08 06:56:27] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 06:57:44] ✅ PASSED BENCH-10 in 76.57s
+[2026-08-08 06:57:47] 
+--- Marathon Progress: Run #111 | Time Elapsed: 149.6m / 120m (Remaining: 90.4m) ---
+[2026-08-08 06:57:47] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 06:59:30] ✅ PASSED BENCH-04 in 103.17s
+[2026-08-08 06:59:33] 
+--- Marathon Progress: Run #112 | Time Elapsed: 151.4m / 120m (Remaining: 88.6m) ---
+[2026-08-08 06:59:33] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 07:03:03] ⏰ TIMED OUT BENCH-02 after 210s
+[2026-08-08 07:03:06] 
+--- Marathon Progress: Run #113 | Time Elapsed: 154.9m / 120m (Remaining: 85.1m) ---
+[2026-08-08 07:03:06] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 07:05:26] ✅ PASSED BENCH-03 in 140.54s
+[2026-08-08 07:05:29] 
+--- Marathon Progress: Run #114 | Time Elapsed: 157.3m / 120m (Remaining: 82.7m) ---
+[2026-08-08 07:05:29] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 07:06:27] ✅ PASSED BENCH-06 in 57.50s
+[2026-08-08 07:06:30] 
+--- Marathon Progress: Run #115 | Time Elapsed: 158.3m / 120m (Remaining: 81.7m) ---
+[2026-08-08 07:06:30] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 07:07:52] ✅ PASSED BENCH-05 in 82.48s
+[2026-08-08 07:07:55] 
+--- Marathon Progress: Run #116 | Time Elapsed: 159.7m / 120m (Remaining: 80.3m) ---
+[2026-08-08 07:07:55] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 07:09:34] ✅ PASSED BENCH-01 in 98.63s
+[2026-08-08 07:09:37] 
+--- Marathon Progress: Run #117 | Time Elapsed: 161.4m / 120m (Remaining: 78.6m) ---
+[2026-08-08 07:09:37] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 07:10:39] ✅ PASSED BENCH-07 in 61.47s
+[2026-08-08 07:10:42] 
+--- Marathon Progress: Run #118 | Time Elapsed: 162.5m / 120m (Remaining: 77.5m) ---
+[2026-08-08 07:10:42] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 07:11:50] ✅ PASSED BENCH-09 in 68.78s
+[2026-08-08 07:11:53] 
+--- Marathon Progress: Run #119 | Time Elapsed: 163.7m / 120m (Remaining: 76.3m) ---
+[2026-08-08 07:11:53] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 07:13:07] ✅ PASSED BENCH-10 in 73.60s
+[2026-08-08 07:13:10] 
+--- Marathon Progress: Run #120 | Time Elapsed: 165.0m / 120m (Remaining: 75.0m) ---
+[2026-08-08 07:13:10] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 07:14:50] ✅ PASSED BENCH-08 in 99.68s
+[2026-08-08 07:14:53] 
+--- Marathon Progress: Run #121 | Time Elapsed: 166.7m / 120m (Remaining: 73.3m) ---
+[2026-08-08 07:14:53] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 07:18:23] ⏰ TIMED OUT BENCH-02 after 210s
+[2026-08-08 07:18:26] 
+--- Marathon Progress: Run #122 | Time Elapsed: 170.2m / 120m (Remaining: 69.8m) ---
+[2026-08-08 07:18:26] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 07:19:59] ✅ PASSED BENCH-08 in 93.26s
+[2026-08-08 07:20:02] 
+--- Marathon Progress: Run #123 | Time Elapsed: 171.8m / 120m (Remaining: 68.2m) ---
+[2026-08-08 07:20:02] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 07:21:52] ✅ PASSED BENCH-03 in 110.30s
+[2026-08-08 07:21:55] 
+--- Marathon Progress: Run #124 | Time Elapsed: 173.7m / 120m (Remaining: 66.3m) ---
+[2026-08-08 07:21:55] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 07:23:24] ❌ FAILED BENCH-05 after 88.36s | Exit: 0
+[2026-08-08 07:23:27] 
+--- Marathon Progress: Run #125 | Time Elapsed: 175.3m / 120m (Remaining: 64.7m) ---
+[2026-08-08 07:23:27] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 07:24:38] ❌ FAILED BENCH-09 after 71.23s | Exit: 0
+[2026-08-08 07:24:41] 
+--- Marathon Progress: Run #126 | Time Elapsed: 176.5m / 120m (Remaining: 63.5m) ---
+[2026-08-08 07:24:41] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 07:25:34] ❌ FAILED BENCH-07 after 53.56s | Exit: 0
+[2026-08-08 07:25:37] 
+--- Marathon Progress: Run #127 | Time Elapsed: 177.4m / 120m (Remaining: 62.6m) ---
+[2026-08-08 07:25:37] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 07:26:33] ❌ FAILED BENCH-06 after 55.22s | Exit: 0
+[2026-08-08 07:26:36] 
+--- Marathon Progress: Run #128 | Time Elapsed: 178.4m / 120m (Remaining: 61.6m) ---
+[2026-08-08 07:26:36] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 07:27:44] ❌ FAILED BENCH-10 after 68.03s | Exit: 0
+[2026-08-08 07:27:47] 
+--- Marathon Progress: Run #129 | Time Elapsed: 179.6m / 120m (Remaining: 60.4m) ---
+[2026-08-08 07:27:47] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 07:28:50] ❌ FAILED BENCH-01 after 63.12s | Exit: 0
+[2026-08-08 07:28:53] 
+--- Marathon Progress: Run #130 | Time Elapsed: 180.7m / 120m (Remaining: 59.3m) ---
+[2026-08-08 07:28:53] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 07:30:03] ❌ FAILED BENCH-04 after 70.23s | Exit: 0
+[2026-08-08 07:30:06] 
+--- Marathon Progress: Run #131 | Time Elapsed: 181.9m / 120m (Remaining: 58.1m) ---
+[2026-08-08 07:30:06] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 07:31:07] ❌ FAILED BENCH-05 after 61.05s | Exit: 0
+[2026-08-08 07:31:10] 
+--- Marathon Progress: Run #132 | Time Elapsed: 183.0m / 120m (Remaining: 57.0m) ---
+[2026-08-08 07:31:10] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 07:32:10] ❌ FAILED BENCH-06 after 60.18s | Exit: 0
+[2026-08-08 07:32:13] 
+--- Marathon Progress: Run #133 | Time Elapsed: 184.0m / 120m (Remaining: 56.0m) ---
+[2026-08-08 07:32:13] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 07:33:18] ❌ FAILED BENCH-01 after 64.91s | Exit: 0
+[2026-08-08 07:33:21] 
+--- Marathon Progress: Run #134 | Time Elapsed: 185.2m / 120m (Remaining: 54.8m) ---
+[2026-08-08 07:33:21] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 07:34:10] ❌ FAILED BENCH-08 after 48.28s | Exit: 0
+[2026-08-08 07:34:13] 
+--- Marathon Progress: Run #135 | Time Elapsed: 186.0m / 120m (Remaining: 54.0m) ---
+[2026-08-08 07:34:13] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 07:35:15] ❌ FAILED BENCH-10 after 62.53s | Exit: 0
+[2026-08-08 07:35:18] 
+--- Marathon Progress: Run #136 | Time Elapsed: 187.1m / 120m (Remaining: 52.9m) ---
+[2026-08-08 07:35:18] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 07:36:09] ❌ FAILED BENCH-07 after 50.64s | Exit: 0
+[2026-08-08 07:36:12] 
+--- Marathon Progress: Run #137 | Time Elapsed: 188.0m / 120m (Remaining: 52.0m) ---
+[2026-08-08 07:36:12] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 07:37:17] ❌ FAILED BENCH-09 after 64.80s | Exit: 0
+[2026-08-08 07:37:20] 
+--- Marathon Progress: Run #138 | Time Elapsed: 189.1m / 120m (Remaining: 50.9m) ---
+[2026-08-08 07:37:20] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 07:38:22] ❌ FAILED BENCH-02 after 62.68s | Exit: 0
+[2026-08-08 07:38:25] 
+--- Marathon Progress: Run #139 | Time Elapsed: 190.2m / 120m (Remaining: 49.8m) ---
+[2026-08-08 07:38:25] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 07:39:25] ❌ FAILED BENCH-03 after 60.18s | Exit: 0
+[2026-08-08 07:39:28] 
+--- Marathon Progress: Run #140 | Time Elapsed: 191.3m / 120m (Remaining: 48.7m) ---
+[2026-08-08 07:39:28] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 07:40:21] ❌ FAILED BENCH-04 after 52.19s | Exit: 0
+[2026-08-08 07:40:24] 
+--- Marathon Progress: Run #141 | Time Elapsed: 192.2m / 120m (Remaining: 47.8m) ---
+[2026-08-08 07:40:24] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 07:41:15] ❌ FAILED BENCH-01 after 50.86s | Exit: 0
+[2026-08-08 07:41:18] 
+--- Marathon Progress: Run #142 | Time Elapsed: 193.1m / 120m (Remaining: 46.9m) ---
+[2026-08-08 07:41:18] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 07:42:24] ❌ FAILED BENCH-08 after 66.61s | Exit: 0
+[2026-08-08 07:42:27] 
+--- Marathon Progress: Run #143 | Time Elapsed: 194.3m / 120m (Remaining: 45.7m) ---
+[2026-08-08 07:42:27] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 07:43:26] ❌ FAILED BENCH-05 after 59.21s | Exit: 0
+[2026-08-08 07:43:29] 
+--- Marathon Progress: Run #144 | Time Elapsed: 195.3m / 120m (Remaining: 44.7m) ---
+[2026-08-08 07:43:29] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 07:44:34] ❌ FAILED BENCH-09 after 65.04s | Exit: 0
+[2026-08-08 07:44:37] 
+--- Marathon Progress: Run #145 | Time Elapsed: 196.4m / 120m (Remaining: 43.6m) ---
+[2026-08-08 07:44:37] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 07:45:40] ❌ FAILED BENCH-02 after 62.08s | Exit: 0
+[2026-08-08 07:45:43] 
+--- Marathon Progress: Run #146 | Time Elapsed: 197.5m / 120m (Remaining: 42.5m) ---
+[2026-08-08 07:45:43] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 07:46:36] ❌ FAILED BENCH-06 after 53.19s | Exit: 0
+[2026-08-08 07:46:39] 
+--- Marathon Progress: Run #147 | Time Elapsed: 198.5m / 120m (Remaining: 41.5m) ---
+[2026-08-08 07:46:39] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 07:47:38] ❌ FAILED BENCH-10 after 59.52s | Exit: 0
+[2026-08-08 07:47:41] 
+--- Marathon Progress: Run #148 | Time Elapsed: 199.5m / 120m (Remaining: 40.5m) ---
+[2026-08-08 07:47:41] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 07:49:11] ❌ FAILED BENCH-03 after 89.31s | Exit: 0
+[2026-08-08 07:49:14] 
+--- Marathon Progress: Run #149 | Time Elapsed: 201.0m / 120m (Remaining: 39.0m) ---
+[2026-08-08 07:49:14] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 07:50:10] ❌ FAILED BENCH-04 after 56.69s | Exit: 0
+[2026-08-08 07:50:13] 
+--- Marathon Progress: Run #150 | Time Elapsed: 202.0m / 120m (Remaining: 38.0m) ---
+[2026-08-08 07:50:13] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 07:51:10] ❌ FAILED BENCH-07 after 56.60s | Exit: 0
+[2026-08-08 07:51:13] 
+--- Marathon Progress: Run #151 | Time Elapsed: 203.0m / 120m (Remaining: 37.0m) ---
+[2026-08-08 07:51:13] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 07:52:07] ❌ FAILED BENCH-08 after 54.11s | Exit: 0
+[2026-08-08 07:52:10] 
+--- Marathon Progress: Run #152 | Time Elapsed: 204.0m / 120m (Remaining: 36.0m) ---
+[2026-08-08 07:52:10] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 07:53:12] ❌ FAILED BENCH-02 after 61.62s | Exit: 0
+[2026-08-08 07:53:15] 
+--- Marathon Progress: Run #153 | Time Elapsed: 205.1m / 120m (Remaining: 34.9m) ---
+[2026-08-08 07:53:15] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 07:54:08] ❌ FAILED BENCH-06 after 53.04s | Exit: 0
+[2026-08-08 07:54:11] 
+--- Marathon Progress: Run #154 | Time Elapsed: 206.0m / 120m (Remaining: 34.0m) ---
+[2026-08-08 07:54:11] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 07:55:31] ❌ FAILED BENCH-10 after 79.96s | Exit: 0
+[2026-08-08 07:55:34] 
+--- Marathon Progress: Run #155 | Time Elapsed: 207.4m / 120m (Remaining: 32.6m) ---
+[2026-08-08 07:55:34] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 07:56:38] ❌ FAILED BENCH-01 after 63.95s | Exit: 0
+[2026-08-08 07:56:41] 
+--- Marathon Progress: Run #156 | Time Elapsed: 208.5m / 120m (Remaining: 31.5m) ---
+[2026-08-08 07:56:41] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 07:57:58] ❌ FAILED BENCH-04 after 77.82s | Exit: 0
+[2026-08-08 07:58:01] 
+--- Marathon Progress: Run #157 | Time Elapsed: 209.8m / 120m (Remaining: 30.2m) ---
+[2026-08-08 07:58:01] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 07:59:08] ❌ FAILED BENCH-05 after 66.20s | Exit: 0
+[2026-08-08 07:59:11] 
+--- Marathon Progress: Run #158 | Time Elapsed: 211.0m / 120m (Remaining: 29.0m) ---
+[2026-08-08 07:59:11] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 08:00:00] ❌ FAILED BENCH-03 after 49.19s | Exit: 0
+[2026-08-08 08:00:03] 
+--- Marathon Progress: Run #159 | Time Elapsed: 211.9m / 120m (Remaining: 28.1m) ---
+[2026-08-08 08:00:03] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 08:01:06] ❌ FAILED BENCH-09 after 62.85s | Exit: 0
+[2026-08-08 08:01:09] 
+--- Marathon Progress: Run #160 | Time Elapsed: 213.0m / 120m (Remaining: 27.0m) ---
+[2026-08-08 08:01:09] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 08:01:58] ❌ FAILED BENCH-07 after 49.13s | Exit: 0
+[2026-08-08 08:02:01] 
+--- Marathon Progress: Run #161 | Time Elapsed: 213.8m / 120m (Remaining: 26.2m) ---
+[2026-08-08 08:02:01] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 08:02:48] ❌ FAILED BENCH-08 after 47.53s | Exit: 0
+[2026-08-08 08:02:51] 
+--- Marathon Progress: Run #162 | Time Elapsed: 214.7m / 120m (Remaining: 25.3m) ---
+[2026-08-08 08:02:51] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 08:03:50] ❌ FAILED BENCH-02 after 58.74s | Exit: 0
+[2026-08-08 08:03:53] 
+--- Marathon Progress: Run #163 | Time Elapsed: 215.7m / 120m (Remaining: 24.3m) ---
+[2026-08-08 08:03:53] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 08:04:51] ❌ FAILED BENCH-05 after 57.62s | Exit: 0
+[2026-08-08 08:04:54] 
+--- Marathon Progress: Run #164 | Time Elapsed: 216.7m / 120m (Remaining: 23.3m) ---
+[2026-08-08 08:04:54] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 08:05:58] ❌ FAILED BENCH-03 after 64.08s | Exit: 0
+[2026-08-08 08:06:01] 
+--- Marathon Progress: Run #165 | Time Elapsed: 217.8m / 120m (Remaining: 22.2m) ---
+[2026-08-08 08:06:01] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 08:07:16] ❌ FAILED BENCH-01 after 75.04s | Exit: 0
+[2026-08-08 08:07:19] 
+--- Marathon Progress: Run #166 | Time Elapsed: 219.1m / 120m (Remaining: 20.9m) ---
+[2026-08-08 08:07:19] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 08:08:10] ❌ FAILED BENCH-06 after 51.41s | Exit: 0
+[2026-08-08 08:08:13] 
+--- Marathon Progress: Run #167 | Time Elapsed: 220.0m / 120m (Remaining: 20.0m) ---
+[2026-08-08 08:08:13] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 08:09:02] ❌ FAILED BENCH-07 after 48.71s | Exit: 0
+[2026-08-08 08:09:05] 
+--- Marathon Progress: Run #168 | Time Elapsed: 220.9m / 120m (Remaining: 19.1m) ---
+[2026-08-08 08:09:05] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 08:10:04] ❌ FAILED BENCH-10 after 59.35s | Exit: 0
+[2026-08-08 08:10:07] 
+--- Marathon Progress: Run #169 | Time Elapsed: 221.9m / 120m (Remaining: 18.1m) ---
+[2026-08-08 08:10:07] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 08:11:20] ❌ FAILED BENCH-04 after 72.11s | Exit: 0
+[2026-08-08 08:11:23] 
+--- Marathon Progress: Run #170 | Time Elapsed: 223.2m / 120m (Remaining: 16.8m) ---
+[2026-08-08 08:11:23] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 08:12:31] ❌ FAILED BENCH-09 after 68.26s | Exit: 0
+[2026-08-08 08:12:34] 
+--- Marathon Progress: Run #171 | Time Elapsed: 224.4m / 120m (Remaining: 15.6m) ---
+[2026-08-08 08:12:34] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 08:13:36] ❌ FAILED BENCH-10 after 62.60s | Exit: 0
+[2026-08-08 08:13:39] 
+--- Marathon Progress: Run #172 | Time Elapsed: 225.5m / 120m (Remaining: 14.5m) ---
+[2026-08-08 08:13:39] 🔥 STARTING BENCH-01: Lock-Free RingBuffer with Zero-Allocation Slicing
+[2026-08-08 08:14:41] ❌ FAILED BENCH-01 after 61.15s | Exit: 0
+[2026-08-08 08:14:44] 
+--- Marathon Progress: Run #173 | Time Elapsed: 226.5m / 120m (Remaining: 13.5m) ---
+[2026-08-08 08:14:44] 🔥 STARTING BENCH-09: Lock-Free Doubly-Linked Deque with Atomic Pointer Swaps
+[2026-08-08 08:15:38] ❌ FAILED BENCH-09 after 54.02s | Exit: 0
+[2026-08-08 08:15:41] 
+--- Marathon Progress: Run #174 | Time Elapsed: 227.5m / 120m (Remaining: 12.5m) ---
+[2026-08-08 08:15:41] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 08:16:34] ❌ FAILED BENCH-06 after 52.95s | Exit: 0
+[2026-08-08 08:16:37] 
+--- Marathon Progress: Run #175 | Time Elapsed: 228.4m / 120m (Remaining: 11.6m) ---
+[2026-08-08 08:16:37] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 08:17:33] ❌ FAILED BENCH-08 after 56.37s | Exit: 0
+[2026-08-08 08:17:36] 
+--- Marathon Progress: Run #176 | Time Elapsed: 229.4m / 120m (Remaining: 10.6m) ---
+[2026-08-08 08:17:36] 🔥 STARTING BENCH-03: In-Memory B-Tree Index with WAL Disk Persistence
+[2026-08-08 08:18:46] ❌ FAILED BENCH-03 after 70.00s | Exit: 0
+[2026-08-08 08:18:49] 
+--- Marathon Progress: Run #177 | Time Elapsed: 230.6m / 120m (Remaining: 9.4m) ---
+[2026-08-08 08:18:49] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 08:19:44] ❌ FAILED BENCH-02 after 54.93s | Exit: 0
+[2026-08-08 08:19:47] 
+--- Marathon Progress: Run #178 | Time Elapsed: 231.6m / 120m (Remaining: 8.4m) ---
+[2026-08-08 08:19:47] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 08:20:35] ❌ FAILED BENCH-07 after 47.82s | Exit: 0
+[2026-08-08 08:20:38] 
+--- Marathon Progress: Run #179 | Time Elapsed: 232.4m / 120m (Remaining: 7.6m) ---
+[2026-08-08 08:20:38] 🔥 STARTING BENCH-04: Zero-Dependency Actor Framework with Supervisor Recovery
+[2026-08-08 08:21:46] ❌ FAILED BENCH-04 after 67.92s | Exit: 0
+[2026-08-08 08:21:49] 
+--- Marathon Progress: Run #180 | Time Elapsed: 233.6m / 120m (Remaining: 6.4m) ---
+[2026-08-08 08:21:49] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 08:22:46] ❌ FAILED BENCH-05 after 57.25s | Exit: 0
+[2026-08-08 08:22:49] 
+--- Marathon Progress: Run #181 | Time Elapsed: 234.6m / 120m (Remaining: 5.4m) ---
+[2026-08-08 08:22:49] 🔥 STARTING BENCH-08: In-Memory Time-Series TSDB with Delta-of-Delta Compression
+[2026-08-08 08:23:40] ❌ FAILED BENCH-08 after 51.38s | Exit: 0
+[2026-08-08 08:23:43] 
+--- Marathon Progress: Run #182 | Time Elapsed: 235.5m / 120m (Remaining: 4.5m) ---
+[2026-08-08 08:23:43] 🔥 STARTING BENCH-06: Zero-Copy Binary Packet Parser & Checksum Engine
+[2026-08-08 08:24:35] ❌ FAILED BENCH-06 after 51.68s | Exit: 0
+[2026-08-08 08:24:38] 
+--- Marathon Progress: Run #183 | Time Elapsed: 236.4m / 120m (Remaining: 3.6m) ---
+[2026-08-08 08:24:38] 🔥 STARTING BENCH-05: Thread-Safe Concurrent HashTable with Read-Write Lock
+[2026-08-08 08:25:34] ❌ FAILED BENCH-05 after 56.43s | Exit: 0
+[2026-08-08 08:25:37] 
+--- Marathon Progress: Run #184 | Time Elapsed: 237.4m / 120m (Remaining: 2.6m) ---
+[2026-08-08 08:25:37] 🔥 STARTING BENCH-10: Async Pub-Sub Message Broker with Wildcard Topic Trie
+[2026-08-08 08:26:36] ❌ FAILED BENCH-10 after 58.59s | Exit: 0
+[2026-08-08 08:26:39] 
+--- Marathon Progress: Run #185 | Time Elapsed: 238.5m / 120m (Remaining: 1.5m) ---
+[2026-08-08 08:26:39] 🔥 STARTING BENCH-07: Async Distributed Priority Task Queue with Preemption
+[2026-08-08 08:27:28] ❌ FAILED BENCH-07 after 48.71s | Exit: 0
+[2026-08-08 08:27:31] 
+--- Marathon Progress: Run #186 | Time Elapsed: 239.3m / 120m (Remaining: 0.7m) ---
+[2026-08-08 08:27:31] 🔥 STARTING BENCH-02: Async Raft Consensus Log Engine
+[2026-08-08 08:28:41] ❌ FAILED BENCH-02 after 70.13s | Exit: 0
+[2026-08-08 08:28:44] 
+========================================================================
+[2026-08-08 08:28:44] 🏁 MARATHON COMPLETED!
+[2026-08-08 08:28:44]    Total Duration: 240.54 minutes
+[2026-08-08 08:28:44]    Total Benchmark Runs: 186
+[2026-08-08 08:28:44]    Passed Benchmark Runs: 40
+[2026-08-08 08:28:44]    Overall Success Rate: 21.5%
+[2026-08-08 08:28:44] ========================================================================
