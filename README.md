@@ -229,9 +229,9 @@ python3 benchmarks/pai_benchmark_suite.py
 ## 👤 Author
 
 **Abhay Kashyap**  
-*1st Year Undergrad — B.Tech in Computer Science & Business Systems (CSBS)*  
+*Undergraduate — B.Tech in Electronics & Communication Engineering (ECE)*  
 *B.M.S. College of Engineering (BMSCE), Bangalore, India*  
-*Hardware-Software Integration • Systems Engineering • Embedded AI*  
+*Embedded Systems • Physical AI • Systems Engineering • Concurrency*  
 GitHub: [@abhay2008](https://github.com/abhay2008)
 
 ---
